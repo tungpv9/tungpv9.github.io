@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+ .h_nav{
+	width:100%;
+	margin-top:6px;
+	
+	}
+.h_nav > ul{
+ padding-left: 100px;
+list-style:none;
+display:flex;
+font-family:"San Francisco","Helvetica Neue",Helvetica,Arial,sans-serif;
+background:#2FA1B3;
+	}
+.h_nav ul li a div.layout1_1 img{
+    position: relative;
+    width: 15px;
+    padding: 7px 15px;
+    opacity: 1;
+    background: darkcyan;
+	}
+.h_nav ul li a div.layout1_1 img:hover{
+	opacity:0;
+}
+
+.h_nav ul li a div.layout2 img{
+	position:absolute;
+	top:-30px;
+	left:0px;
+	opacity:0;
+	width: 15px;
+    padding: 7px 15px;
+	}
+.h_navul li a div.layout2 img:hover {
+	opacity:1;
+	}
+._1cot{
+width:100%;
+height:30px;
+position:relative;
+line-height:30px;
+	}
+._1cot a.layout1{
+	width:100px;
+	padding:6px 5px;
+	font-size:16px;
+	text-decoration:none;
+	color:white;
+	height:30px;
+	text-transform:uppercase;
+	}
+._1cot:hover a.layout1{
+	background:darkcyan;
+	}
+._1cot:hover .layout2{
+	opacity:1;
+	visibility:visible;
+	}
+._1cot .layout2{
+	position:absolute;
+	top:30px;
+	left:0px;
+	opacity:0;
+	transition:0.3s;
+	visibility:hidden;
+	}
+._1cot .layout2 ul{
+	list-style:none;
+	background:#2FA1B3;
+	text-transform:uppercase;
+	}
+._1cot .layout2 ul li{
+
+	}
+._1cot .layout2 ul li a{
+text-decoration:none;
+width:200px;
+display:block;
+padding:2px 10px;
+color:white;
+	}
+._1cot .layout2 ul li a:hover{
+	background: darkcyan;
+}
+.layout2_1 img {
+	margin-top: -21px;
+	margin-left: 15px;
+	}

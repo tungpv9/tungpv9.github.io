@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+.header{
+	width:1160px;
+	margin:10px auto;
+	}
+.header{
+	display:flex;
+	height:40px;
+	justify-content:space-between;	
+	}	
+.header .logo{
+	width:386px;
+	height:40px;
+}
+.header .logo a {
+	}
+.header .logo img{
+	width:50%;
+    height: 210%;
+    margin-top: -45px;
+}
+
+.header .search{
+	
+	width:386px;
+	display:flex;
+}	
+.header .search .sear1 input{
+   width: 100%;
+    height: 50%;
+    padding: 4px 43px;
+    font-size: 12px;
+    text-align: left;
+}		
+.header .search .sear2{
+    margin-left: 36px;	
+}	
+.header .search .sear2 img{	
+	width: 54%;
+    height: 60%;
+    margin-left: 20px;
+	padding: 5px;
+	transition:0.2s;
+	}
+.header .search .sear2 img:hover{	
+	background:lavender;
+	width: 50%;
+    height: 50%;
+	}
+.header .icon_login{
+	width:386px;
+	display:flex;
+    padding-top: 6px;
+}	
+.header .icon_login .login {
+	width:50%;
+	text-align:right;	
+}
+.header .icon_login .login img{
+	padding:5px;
+		transition:0.2s;
+}
+.header .icon_login .login img:hover{
+	border-radius:5px;
+	border:1px solid #000;
+}		
+.header .icon_login .smartp{
+	width:50%;
+    padding-left: 15px;
+}	
+.header .icon_login .smartp img{
+	padding:5px;
+	transition:0.2s;}
+.header .icon_login .smartp img:hover{
+	border-radius:5px;
+	border:1px solid #000;
+}
+/*The End Header_Top*/

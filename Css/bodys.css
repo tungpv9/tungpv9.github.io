@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	overflow-x:hidden;
+	}
+.bodys{
+	width: 1260px;
+    margin: 0 auto;
+    margin-top: 30px;
+	display:flex;
+	overflow-x:hiddent;
+	}
+.bodys .left_cont{
+	margin-left: -13px;
+    width: 50px;
+    height: 500px;
+    margin-bottom: 0px;
+	position:fixed;
+	}
+.bodys .left_cont ul {
+	list-style:none;
+	}
+.bodys .left_cont ul li {
+	width: 100%;
+    height: 87px;
+	}
+.bodys .left_cont ul li .layout1{
+	position:relative;
+ 	width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	}
+.bodys .left_cont ul li .layout1 .ima1{
+	width: 50%;
+    text-align: center;
+	opacity:1;
+	transition:0.2s;
+	}
+.bodys .left_cont ul li .layout1:hover .ima1{
+	opacity:0;
+	}
+.bodys .left_cont ul li .layout1 .ima2{
+	position:absolute;
+	top:0px;
+	left:12px;
+	opacity:0;
+	transition:0.2s;
+	}
+.bodys .left_cont ul li .layout1:hover .ima2{
+	opacity:1;
+	
+	  }
+.bodys .left_cont ul li .layout1 .td{
+	 text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+	font-family:"Segoe UI Light";
+	text-transform:uppercase;
+	color:#000;
+  	border-bottom: 1px solid;
+	}
+.bodys .left_cont ul li:last-child .layout1 .td{
+	
+  	border-bottom: 0px ;
+	} 
+.bodys .left_cont ul li .layout1:hover .td{
+	  border-bottom: 1px solid #F00;
+	  color:red;
+	}
+.bodys .right_cont{
+	width:1160px;
+	display:flex;
+	margin:0 auto;
+	justify-content:space-between;
+	}
+.bodys .right_cont .rc_lef{
+	width:63%;
+	
+	}
+.bodys .right_cont .rc_lef .tdm {
+width:100%;
+height:460px;
+text-decoration:none;
+padding-bottom:5px;
+	}
+.bodys .right_cont .rc_lef .tdm a{
+	text-decoration:none;
+	width: 100%;
+    height: 100%;
+    display: inline-block;
+	transition:0.4s;
+	}
+.rc_lef .tdm > a:hover{
+	color:#09F;
+	}
+.rc_lef .tdm > a .image1 {
+width:100%;
+height:100%;
+	}
+.bodys .right_cont .rc_lef .tdm a .tieude {
+text-transform:uppercase;
+color:#000;
+	}
+.bodys .right_cont .rc_lef .tdm a .tieude h2{
+		margin:0;
+		padding-top:13px;
+		}
+.bodys .right_cont .rc_lef .tdm .inf{
+	display:flex;
+	text-decoration:none;
+	color:#CCC;
+	padding-top: 46px;
+	}
+.bodys .right_cont .rc_lef .tdm .inf .nguon {
+width:8%;
+color:#999;
+	}
+.bodys .right_cont .rc_lef .tdm .inf .nguon:hover {
+color:#09F;
+}
+.bodys .right_cont .rc_lef .tdm .inf .gio{
+width:8%;
+color:#999;
+	}
+.bodys .right_cont .rc_lef .tdm .inf .gio:hover{
+color:#09F;
+	}
+.bodys .right_cont .rc_lef .tdm .inf .lienquan{
+width:20%;
+color:#999
+	}	
+.bodys .right_cont .rc_lef .tdm .inf .lienquan:hover{
+	color:#09F;
+}
+/*The end Tieu diem lớn*/
+.tdm_n{
+	width:100%;
+	display:flex;
+	margin-top:80px;
+	justify-content:space-between;
+	padding-bottom: 15px;
+    border-bottom: 1px solid #999;
+	}
+.tdm_n .inf_small_1{
+	width:32%;
+	
+	}
+.tdm_n .inf_small_1 .lk1 {
+	text-decoration:none;
+	}
+.tdm_n .inf_small_1 .lk1 .tdm_ima1{
+	width:100%;
+	border-radius:5px;
+	transition:0.4s;
+	transform:scale(0.99);
+	
+	}
+.tdm_n .inf_small_1 .lk1 .tdm_ima1:hover{
+	transform:scale(1);
+	}
+.tdm_n .inf_small_1 .lk1 .tdn1{
+	font-family:"Segoe UI Light";
+	font-size:18px;
+	color:#000;
+	font-weight:bold;
+	padding-top: 7px;
+	}
+.tdm_n .inf_small_1 .lk1_1{
+	
+	padding-top:5px;
+	}
+.tdm_n .inf_small_1 .lk1_1 .nguon1{
+	text-decoration:none;
+	width:10%;
+	color:#999;
+	padding-right: 5px;
+	}
+.tdm_n .inf_small_1 .lk1_1 .nguon1:hover{
+	color:#09F;
+	}
+.tdm_n .inf_small_1 .lk1_1 .gio1{
+	width:10%;
+	color:#999;
+	}
+/*The end left_content	*/
+.bodys .right_cont .rc_rig{
+	width:34%;
+	}
+.bodys .right_cont .rc_rig .small_block{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	margin-bottom:7px;
+	}
+.bodys .right_cont .rc_rig .small_block .block_left{
+	width:20%; 
+	height:100%;
+	}
+.bodys .right_cont .rc_rig  .small_block .block_left img{
+	width: 100%;
+    height: 100%;
+	border-radius:5px;
+	}
+.bodys .right_cont .rc_rig .small_block .block_right{
+	width:76%;
+	}
+.bodys .right_cont .rc_rig .small_block .block_right .a1{
+	text-decoration:none;
+	font-family:"Segoe UI Light";
+	font-size:18px;
+	color:#000;
+	font-weight:bold;
+	display:block;
+	}
+.bodys .right_cont .rc_rig .small_block .block_right .a1:hover{
+	color:#09F;
+	}
+.bodys .right_cont .rc_rig .small_block .block_right .nguon1{
+	text-decoration:none;
+	color:#999;
+	padding-top: 10px;
+    display: inline-block;
+	padding-right:10px;
+	}
+.bodys .right_cont .rc_rig .small_block .block_right .nguon1:hover{
+	color:#09F;
+	}
+
+.bodys .right_cont .rc_rig .small_block .block_right .gio1{
+	color:#999;
+	padding-right:10px;
+	}
+.bodys .right_cont .rc_rig .small_block .block_right .gio1:hover{
+	color:#09F;
+	}
+
+.bodys .right_cont .rc_rig .small_block .block_right .lq{
+	text-decoration:none;
+	color:#999;
+	}
+.bodys .right_cont .rc_rig .small_block .block_right .lq:hover{
+	color:#09F;
+}

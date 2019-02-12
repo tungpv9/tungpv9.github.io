@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+.footer{
+	overflow:scroll;
+	width:1160px;
+	margin:0 auto;
+	background:#CF0;
+	}
